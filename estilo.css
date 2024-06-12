@@ -10,7 +10,9 @@
     opacity: 0;
   }
 }
-
+body{
+  margin: 0;
+}
 p,a {
   font-family: 'Neuton', serif;
 }
@@ -18,4 +20,11 @@ p,a {
 h1,h2,h3,h4,h5,h6{
   font-family: 'Alumni Sans Inline One', sans-serif;
   font-weight: normal;
+}
+#login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+background-color: rgb(16, 56, 92);
+height: 100vh;
 }
